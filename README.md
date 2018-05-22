@@ -1,2 +1,2 @@
 # copytext
-copy text value from element
+copy text to clip-board

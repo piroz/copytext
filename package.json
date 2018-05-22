@@ -1,0 +1,23 @@
+{
+  "name": "copytext",
+  "version": "1.0.0",
+  "description": "copy text to clip-board",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piroz/copytext.git"
+  },
+  "author": "piroz",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-notifier": "^1.6.0"
+  }
+}

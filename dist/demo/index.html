@@ -1,0 +1,15 @@
+
+<p class="input-line">Copy<input type="text" value="test-text" id="input-text">to<button onclick="copy()">clipboard</button></p>
+<br>
+<textarea style="width: 100%; height: 200px;" placeholder="paste here"></textarea>
+<script src="../index.js"></script>
+<script>
+function copy() {
+    var input = document.querySelector("#input-text").value;
+
+    
+    if (piroz.copy(input)) {
+        alert('1 text copied!');
+    }
+}
+</script>
